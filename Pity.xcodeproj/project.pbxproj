@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61A871538A3FF0BA6F35FEB8 /* Pods_Pity_PityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D1D33F529AD79C27002A11 /* Pods_Pity_PityUITests.framework */; };
+		83C77163278BCAB600C4F0D0 /* PityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C77162278BCAB600C4F0D0 /* PityApp.swift */; };
+		83C77165278BCAB600C4F0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C77164278BCAB600C4F0D0 /* ContentView.swift */; };
+		83C77167278BCAB600C4F0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C77166278BCAB600C4F0D0 /* Assets.xcassets */; };
+		83C7716A278BCAB600C4F0D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C77169278BCAB600C4F0D0 /* Preview Assets.xcassets */; };
+		83C77174278BCAB600C4F0D0 /* PityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C77173278BCAB600C4F0D0 /* PityTests.swift */; };
+		83C7717E278BCAB600C4F0D0 /* PityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7717D278BCAB600C4F0D0 /* PityUITests.swift */; };
+		83C77180278BCAB600C4F0D0 /* PityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7717F278BCAB600C4F0D0 /* PityUITestsLaunchTests.swift */; };
+		83C7718D278BCB4600C4F0D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83C7718C278BCB4600C4F0D0 /* GoogleService-Info.plist */; };
+		83C771A1278BCC4D00C4F0D0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7718F278BCC4D00C4F0D0 /* Poppins-Medium.ttf */; };
+		83C771A2278BCC4D00C4F0D0 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77190278BCC4D00C4F0D0 /* Poppins-Light.ttf */; };
+		83C771A3278BCC4D00C4F0D0 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77191278BCC4D00C4F0D0 /* Poppins-ExtraLight.ttf */; };
+		83C771A4278BCC4D00C4F0D0 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77192278BCC4D00C4F0D0 /* Poppins-LightItalic.ttf */; };
+		83C771A5278BCC4D00C4F0D0 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77193278BCC4D00C4F0D0 /* Poppins-ExtraLightItalic.ttf */; };
+		83C771A6278BCC4D00C4F0D0 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77194278BCC4D00C4F0D0 /* Poppins-SemiBoldItalic.ttf */; };
+		83C771A7278BCC4D00C4F0D0 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77195278BCC4D00C4F0D0 /* Poppins-MediumItalic.ttf */; };
+		83C771A8278BCC4D00C4F0D0 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77196278BCC4D00C4F0D0 /* Poppins-BoldItalic.ttf */; };
+		83C771A9278BCC4D00C4F0D0 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77197278BCC4D00C4F0D0 /* Poppins-Thin.ttf */; };
+		83C771AA278BCC4D00C4F0D0 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77198278BCC4D00C4F0D0 /* Poppins-ThinItalic.ttf */; };
+		83C771AB278BCC4D00C4F0D0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C77199278BCC4D00C4F0D0 /* Poppins-SemiBold.ttf */; };
+		83C771AC278BCC4D00C4F0D0 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7719A278BCC4D00C4F0D0 /* Poppins-ExtraBold.ttf */; };
+		83C771AD278BCC4D00C4F0D0 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7719B278BCC4D00C4F0D0 /* Poppins-ExtraBoldItalic.ttf */; };
+		83C771AE278BCC4D00C4F0D0 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7719C278BCC4D00C4F0D0 /* Poppins-Black.ttf */; };
+		83C771AF278BCC4D00C4F0D0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7719D278BCC4D00C4F0D0 /* Poppins-Bold.ttf */; };
+		83C771B0278BCC4D00C4F0D0 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7719E278BCC4D00C4F0D0 /* Poppins-Italic.ttf */; };
+		83C771B1278BCC4D00C4F0D0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C7719F278BCC4D00C4F0D0 /* Poppins-Regular.ttf */; };
+		83C771B2278BCC4D00C4F0D0 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C771A0278BCC4D00C4F0D0 /* Poppins-BlackItalic.ttf */; };
+		83C771B5278BCD9200C4F0D0 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83C771B4278BCD9200C4F0D0 /* Pacifico-Regular.ttf */; };
+		83C771B7278BCE5500C4F0D0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C771B6278BCE5500C4F0D0 /* SignUpView.swift */; };
+		83C771B9278BCE7600C4F0D0 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C771B8278BCE7600C4F0D0 /* LogInView.swift */; };
+		83C771BB278BCEB500C4F0D0 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C771BA278BCEB500C4F0D0 /* CheckBoxView.swift */; };
+		83C771BD278BFE7400C4F0D0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C771BC278BFE7400C4F0D0 /* HomeView.swift */; };
+		92E06D03CF5B8A0EA599A973 /* Pods_PityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0B787C1C8597F31B6192C /* Pods_PityTests.framework */; };
+		E8BDA1DE16AADD843616AA04 /* Pods_Pity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B6205D00ADBCBBB3036D4F /* Pods_Pity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83C77170278BCAB600C4F0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C77157278BCAB600C4F0D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C7715E278BCAB600C4F0D0;
+			remoteInfo = Pity;
+		};
+		83C7717A278BCAB600C4F0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C77157278BCAB600C4F0D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C7715E278BCAB600C4F0D0;
+			remoteInfo = Pity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C82E4650E6B1E5C1B3F3F4C /* Pods-PityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PityTests.debug.xcconfig"; path = "Target Support Files/Pods-PityTests/Pods-PityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18A0B787C1C8597F31B6192C /* Pods_PityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19572A8889A017790176E057 /* Pods-Pity-PityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pity-PityUITests.release.xcconfig"; path = "Target Support Files/Pods-Pity-PityUITests/Pods-Pity-PityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E9E81CB1031EDDD5FCF45E8 /* Pods-PityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PityTests.release.xcconfig"; path = "Target Support Files/Pods-PityTests/Pods-PityTests.release.xcconfig"; sourceTree = "<group>"; };
+		30D1D33F529AD79C27002A11 /* Pods_Pity_PityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pity_PityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B6205D00ADBCBBB3036D4F /* Pods_Pity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C7715F278BCAB600C4F0D0 /* Pity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C77162278BCAB600C4F0D0 /* PityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PityApp.swift; sourceTree = "<group>"; };
+		83C77164278BCAB600C4F0D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83C77166278BCAB600C4F0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C77169278BCAB600C4F0D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83C7716F278BCAB600C4F0D0 /* PityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C77173278BCAB600C4F0D0 /* PityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PityTests.swift; sourceTree = "<group>"; };
+		83C77179278BCAB600C4F0D0 /* PityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C7717D278BCAB600C4F0D0 /* PityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PityUITests.swift; sourceTree = "<group>"; };
+		83C7717F278BCAB600C4F0D0 /* PityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83C7718C278BCB4600C4F0D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		83C7718F278BCC4D00C4F0D0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		83C77190278BCC4D00C4F0D0 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		83C77191278BCC4D00C4F0D0 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		83C77192278BCC4D00C4F0D0 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		83C77193278BCC4D00C4F0D0 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		83C77194278BCC4D00C4F0D0 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		83C77195278BCC4D00C4F0D0 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		83C77196278BCC4D00C4F0D0 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		83C77197278BCC4D00C4F0D0 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		83C77198278BCC4D00C4F0D0 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		83C77199278BCC4D00C4F0D0 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		83C7719A278BCC4D00C4F0D0 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		83C7719B278BCC4D00C4F0D0 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		83C7719C278BCC4D00C4F0D0 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		83C7719D278BCC4D00C4F0D0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		83C7719E278BCC4D00C4F0D0 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		83C7719F278BCC4D00C4F0D0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		83C771A0278BCC4D00C4F0D0 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		83C771B3278BCC8800C4F0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83C771B4278BCD9200C4F0D0 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		83C771B6278BCE5500C4F0D0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		83C771B8278BCE7600C4F0D0 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		83C771BA278BCEB500C4F0D0 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		83C771BC278BFE7400C4F0D0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C423AF44138201C9676312BE /* Pods-Pity-PityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pity-PityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pity-PityUITests/Pods-Pity-PityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5334C53C8F5EBFB537BE2C2 /* Pods-Pity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pity.debug.xcconfig"; path = "Target Support Files/Pods-Pity/Pods-Pity.debug.xcconfig"; sourceTree = "<group>"; };
+		EC48A3FAC0F00F8FFF27C8F1 /* Pods-Pity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pity.release.xcconfig"; path = "Target Support Files/Pods-Pity/Pods-Pity.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C7715C278BCAB600C4F0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BDA1DE16AADD843616AA04 /* Pods_Pity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C7716C278BCAB600C4F0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E06D03CF5B8A0EA599A973 /* Pods_PityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C77176278BCAB600C4F0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A871538A3FF0BA6F35FEB8 /* Pods_Pity_PityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C77156278BCAB600C4F0D0 = {
+			isa = PBXGroup;
+			children = (
+				83C77161278BCAB600C4F0D0 /* Pity */,
+				83C77172278BCAB600C4F0D0 /* PityTests */,
+				83C7717C278BCAB600C4F0D0 /* PityUITests */,
+				83C77160278BCAB600C4F0D0 /* Products */,
+				C3BD3245F708A17A08A8B8EA /* Pods */,
+				D8547ADBDFB0FCD513AE3D81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83C77160278BCAB600C4F0D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C7715F278BCAB600C4F0D0 /* Pity.app */,
+				83C7716F278BCAB600C4F0D0 /* PityTests.xctest */,
+				83C77179278BCAB600C4F0D0 /* PityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C77161278BCAB600C4F0D0 /* Pity */ = {
+			isa = PBXGroup;
+			children = (
+				83C771B3278BCC8800C4F0D0 /* Info.plist */,
+				83C7718C278BCB4600C4F0D0 /* GoogleService-Info.plist */,
+				83C77162278BCAB600C4F0D0 /* PityApp.swift */,
+				83C77164278BCAB600C4F0D0 /* ContentView.swift */,
+				83C77166278BCAB600C4F0D0 /* Assets.xcassets */,
+				83C7718E278BCC2900C4F0D0 /* Fonts */,
+				83C77168278BCAB600C4F0D0 /* Preview Content */,
+				83C771B6278BCE5500C4F0D0 /* SignUpView.swift */,
+				83C771B8278BCE7600C4F0D0 /* LogInView.swift */,
+				83C771BA278BCEB500C4F0D0 /* CheckBoxView.swift */,
+				83C771BC278BFE7400C4F0D0 /* HomeView.swift */,
+			);
+			path = Pity;
+			sourceTree = "<group>";
+		};
+		83C77168278BCAB600C4F0D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83C77169278BCAB600C4F0D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83C77172278BCAB600C4F0D0 /* PityTests */ = {
+			isa = PBXGroup;
+			children = (
+				83C77173278BCAB600C4F0D0 /* PityTests.swift */,
+			);
+			path = PityTests;
+			sourceTree = "<group>";
+		};
+		83C7717C278BCAB600C4F0D0 /* PityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83C7717D278BCAB600C4F0D0 /* PityUITests.swift */,
+				83C7717F278BCAB600C4F0D0 /* PityUITestsLaunchTests.swift */,
+			);
+			path = PityUITests;
+			sourceTree = "<group>";
+		};
+		83C7718E278BCC2900C4F0D0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				83C771B4278BCD9200C4F0D0 /* Pacifico-Regular.ttf */,
+				83C7719C278BCC4D00C4F0D0 /* Poppins-Black.ttf */,
+				83C771A0278BCC4D00C4F0D0 /* Poppins-BlackItalic.ttf */,
+				83C7719D278BCC4D00C4F0D0 /* Poppins-Bold.ttf */,
+				83C77196278BCC4D00C4F0D0 /* Poppins-BoldItalic.ttf */,
+				83C7719A278BCC4D00C4F0D0 /* Poppins-ExtraBold.ttf */,
+				83C7719B278BCC4D00C4F0D0 /* Poppins-ExtraBoldItalic.ttf */,
+				83C77191278BCC4D00C4F0D0 /* Poppins-ExtraLight.ttf */,
+				83C77193278BCC4D00C4F0D0 /* Poppins-ExtraLightItalic.ttf */,
+				83C7719E278BCC4D00C4F0D0 /* Poppins-Italic.ttf */,
+				83C77190278BCC4D00C4F0D0 /* Poppins-Light.ttf */,
+				83C77192278BCC4D00C4F0D0 /* Poppins-LightItalic.ttf */,
+				83C7718F278BCC4D00C4F0D0 /* Poppins-Medium.ttf */,
+				83C77195278BCC4D00C4F0D0 /* Poppins-MediumItalic.ttf */,
+				83C7719F278BCC4D00C4F0D0 /* Poppins-Regular.ttf */,
+				83C77199278BCC4D00C4F0D0 /* Poppins-SemiBold.ttf */,
+				83C77194278BCC4D00C4F0D0 /* Poppins-SemiBoldItalic.ttf */,
+				83C77197278BCC4D00C4F0D0 /* Poppins-Thin.ttf */,
+				83C77198278BCC4D00C4F0D0 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C3BD3245F708A17A08A8B8EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5334C53C8F5EBFB537BE2C2 /* Pods-Pity.debug.xcconfig */,
+				EC48A3FAC0F00F8FFF27C8F1 /* Pods-Pity.release.xcconfig */,
+				C423AF44138201C9676312BE /* Pods-Pity-PityUITests.debug.xcconfig */,
+				19572A8889A017790176E057 /* Pods-Pity-PityUITests.release.xcconfig */,
+				0C82E4650E6B1E5C1B3F3F4C /* Pods-PityTests.debug.xcconfig */,
+				1E9E81CB1031EDDD5FCF45E8 /* Pods-PityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8547ADBDFB0FCD513AE3D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B6205D00ADBCBBB3036D4F /* Pods_Pity.framework */,
+				30D1D33F529AD79C27002A11 /* Pods_Pity_PityUITests.framework */,
+				18A0B787C1C8597F31B6192C /* Pods_PityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C7715E278BCAB600C4F0D0 /* Pity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C77183278BCAB600C4F0D0 /* Build configuration list for PBXNativeTarget "Pity" */;
+			buildPhases = (
+				057A7D1FCAF94CF9C500CC2F /* [CP] Check Pods Manifest.lock */,
+				83C7715B278BCAB600C4F0D0 /* Sources */,
+				83C7715C278BCAB600C4F0D0 /* Frameworks */,
+				83C7715D278BCAB600C4F0D0 /* Resources */,
+				60B8F048F189C7F3080A74C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pity;
+			productName = Pity;
+			productReference = 83C7715F278BCAB600C4F0D0 /* Pity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C7716E278BCAB600C4F0D0 /* PityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C77186278BCAB600C4F0D0 /* Build configuration list for PBXNativeTarget "PityTests" */;
+			buildPhases = (
+				4F811B404478A0840DD3F9C7 /* [CP] Check Pods Manifest.lock */,
+				83C7716B278BCAB600C4F0D0 /* Sources */,
+				83C7716C278BCAB600C4F0D0 /* Frameworks */,
+				83C7716D278BCAB600C4F0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C77171278BCAB600C4F0D0 /* PBXTargetDependency */,
+			);
+			name = PityTests;
+			productName = PityTests;
+			productReference = 83C7716F278BCAB600C4F0D0 /* PityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83C77178278BCAB600C4F0D0 /* PityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C77189278BCAB600C4F0D0 /* Build configuration list for PBXNativeTarget "PityUITests" */;
+			buildPhases = (
+				87C72E702CF75E06824AEFAB /* [CP] Check Pods Manifest.lock */,
+				83C77175278BCAB600C4F0D0 /* Sources */,
+				83C77176278BCAB600C4F0D0 /* Frameworks */,
+				83C77177278BCAB600C4F0D0 /* Resources */,
+				49ABDF8717971881A590A794 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C7717B278BCAB600C4F0D0 /* PBXTargetDependency */,
+			);
+			name = PityUITests;
+			productName = PityUITests;
+			productReference = 83C77179278BCAB600C4F0D0 /* PityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C77157278BCAB600C4F0D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					83C7715E278BCAB600C4F0D0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					83C7716E278BCAB600C4F0D0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 83C7715E278BCAB600C4F0D0;
+					};
+					83C77178278BCAB600C4F0D0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 83C7715E278BCAB600C4F0D0;
+					};
+				};
+			};
+			buildConfigurationList = 83C7715A278BCAB600C4F0D0 /* Build configuration list for PBXProject "Pity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C77156278BCAB600C4F0D0;
+			productRefGroup = 83C77160278BCAB600C4F0D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C7715E278BCAB600C4F0D0 /* Pity */,
+				83C7716E278BCAB600C4F0D0 /* PityTests */,
+				83C77178278BCAB600C4F0D0 /* PityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C7715D278BCAB600C4F0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C771A5278BCC4D00C4F0D0 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				83C771B2278BCC4D00C4F0D0 /* Poppins-BlackItalic.ttf in Resources */,
+				83C771AF278BCC4D00C4F0D0 /* Poppins-Bold.ttf in Resources */,
+				83C771AE278BCC4D00C4F0D0 /* Poppins-Black.ttf in Resources */,
+				83C771AC278BCC4D00C4F0D0 /* Poppins-ExtraBold.ttf in Resources */,
+				83C771B0278BCC4D00C4F0D0 /* Poppins-Italic.ttf in Resources */,
+				83C771AB278BCC4D00C4F0D0 /* Poppins-SemiBold.ttf in Resources */,
+				83C771A3278BCC4D00C4F0D0 /* Poppins-ExtraLight.ttf in Resources */,
+				83C7716A278BCAB600C4F0D0 /* Preview Assets.xcassets in Resources */,
+				83C771A4278BCC4D00C4F0D0 /* Poppins-LightItalic.ttf in Resources */,
+				83C771A2278BCC4D00C4F0D0 /* Poppins-Light.ttf in Resources */,
+				83C771A6278BCC4D00C4F0D0 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				83C771AD278BCC4D00C4F0D0 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				83C771A1278BCC4D00C4F0D0 /* Poppins-Medium.ttf in Resources */,
+				83C77167278BCAB600C4F0D0 /* Assets.xcassets in Resources */,
+				83C771A8278BCC4D00C4F0D0 /* Poppins-BoldItalic.ttf in Resources */,
+				83C771A9278BCC4D00C4F0D0 /* Poppins-Thin.ttf in Resources */,
+				83C771AA278BCC4D00C4F0D0 /* Poppins-ThinItalic.ttf in Resources */,
+				83C7718D278BCB4600C4F0D0 /* GoogleService-Info.plist in Resources */,
+				83C771A7278BCC4D00C4F0D0 /* Poppins-MediumItalic.ttf in Resources */,
+				83C771B1278BCC4D00C4F0D0 /* Poppins-Regular.ttf in Resources */,
+				83C771B5278BCD9200C4F0D0 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C7716D278BCAB600C4F0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C77177278BCAB600C4F0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057A7D1FCAF94CF9C500CC2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49ABDF8717971881A590A794 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pity-PityUITests/Pods-Pity-PityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pity-PityUITests/Pods-Pity-PityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pity-PityUITests/Pods-Pity-PityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F811B404478A0840DD3F9C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B8F048F189C7F3080A74C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pity/Pods-Pity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pity/Pods-Pity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pity/Pods-Pity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C72E702CF75E06824AEFAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pity-PityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C7715B278BCAB600C4F0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C77165278BCAB600C4F0D0 /* ContentView.swift in Sources */,
+				83C771BB278BCEB500C4F0D0 /* CheckBoxView.swift in Sources */,
+				83C771B7278BCE5500C4F0D0 /* SignUpView.swift in Sources */,
+				83C771BD278BFE7400C4F0D0 /* HomeView.swift in Sources */,
+				83C771B9278BCE7600C4F0D0 /* LogInView.swift in Sources */,
+				83C77163278BCAB600C4F0D0 /* PityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C7716B278BCAB600C4F0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C77174278BCAB600C4F0D0 /* PityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C77175278BCAB600C4F0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C77180278BCAB600C4F0D0 /* PityUITestsLaunchTests.swift in Sources */,
+				83C7717E278BCAB600C4F0D0 /* PityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C77171278BCAB600C4F0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C7715E278BCAB600C4F0D0 /* Pity */;
+			targetProxy = 83C77170278BCAB600C4F0D0 /* PBXContainerItemProxy */;
+		};
+		83C7717B278BCAB600C4F0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C7715E278BCAB600C4F0D0 /* Pity */;
+			targetProxy = 83C7717A278BCAB600C4F0D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83C77181278BCAB600C4F0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83C77182278BCAB600C4F0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C77184278BCAB600C4F0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5334C53C8F5EBFB537BE2C2 /* Pods-Pity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pity/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CanSeyhan.Pity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C77185278BCAB600C4F0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC48A3FAC0F00F8FFF27C8F1 /* Pods-Pity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pity/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CanSeyhan.Pity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83C77187278BCAB600C4F0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C82E4650E6B1E5C1B3F3F4C /* Pods-PityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CanSeyhan.PityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pity.app/Pity";
+			};
+			name = Debug;
+		};
+		83C77188278BCAB600C4F0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9E81CB1031EDDD5FCF45E8 /* Pods-PityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CanSeyhan.PityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pity.app/Pity";
+			};
+			name = Release;
+		};
+		83C7718A278BCAB600C4F0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C423AF44138201C9676312BE /* Pods-Pity-PityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CanSeyhan.PityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pity;
+			};
+			name = Debug;
+		};
+		83C7718B278BCAB600C4F0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19572A8889A017790176E057 /* Pods-Pity-PityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CanSeyhan.PityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C7715A278BCAB600C4F0D0 /* Build configuration list for PBXProject "Pity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C77181278BCAB600C4F0D0 /* Debug */,
+				83C77182278BCAB600C4F0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C77183278BCAB600C4F0D0 /* Build configuration list for PBXNativeTarget "Pity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C77184278BCAB600C4F0D0 /* Debug */,
+				83C77185278BCAB600C4F0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C77186278BCAB600C4F0D0 /* Build configuration list for PBXNativeTarget "PityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C77187278BCAB600C4F0D0 /* Debug */,
+				83C77188278BCAB600C4F0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C77189278BCAB600C4F0D0 /* Build configuration list for PBXNativeTarget "PityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C7718A278BCAB600C4F0D0 /* Debug */,
+				83C7718B278BCAB600C4F0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C77157278BCAB600C4F0D0 /* Project object */;
+}
